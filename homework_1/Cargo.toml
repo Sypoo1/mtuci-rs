@@ -11,7 +11,12 @@ name = "fizzbuzz"
 path = "src/fizzbuzz.rs"
 
 [[bin]]
-name = "book"
-path = "src/rust_book.rs"
+name = "book1"
+path = "src/rust_book_ch1.rs"
+
+[[bin]]
+name = "guessing_game"
+path = "src/rust_book_ch2.rs"
 
 [dependencies]
+rand = "0.8.5"
