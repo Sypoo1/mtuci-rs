@@ -18,5 +18,9 @@ path = "src/rust_book_ch1.rs"
 name = "guessing_game"
 path = "src/rust_book_ch2.rs"
 
+[[bin]]
+name = "programming_concepts"
+path = "src/rust_book_ch3.rs"
+
 [dependencies]
 rand = "0.8.5"
