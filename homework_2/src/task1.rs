@@ -17,7 +17,19 @@ fn main() {
 }
 
 fn find_term(search_term: &str, quote: &str) -> String {
-    todo!()
+    let mut ans = "".to_string();
+    let mut cnt = 0;
+    for row in quote.split("\n"){
+        cnt += 1;
+        for word in row.split(" "){
+            if word == search_term{
+                ans = format!("{cnt}: {row}")
+            }
+        }
+
+    };
+
+    ans
 }
 
 
